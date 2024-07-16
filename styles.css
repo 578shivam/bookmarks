@@ -1,0 +1,602 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  overflow-x: clip;
+}
+body{
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+.menu img{
+  display: none;
+}
+/*number 1 start*/
+.flex1{
+  display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0px 64px;
+padding: 21px;
+}
+.item1 ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.item1 li{
+  margin: 1.5rem;
+  font-weight: 400;
+}
+.item1 li:hover{
+    color: hsl(0, 94%, 66%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn{
+  width: 110px;
+  height: 40px;
+  background-color:  hsl(0, 94%, 66%);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.btn:hover{
+    background-color: white;
+    color: hsl(0, 94%, 66%);
+    border: 3px solid hsl(0, 94%, 66%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+ /*number 1  end*/
+
+ /*main number 2 start css*/
+.flex2{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+.text_content h1{
+  font-size: 3rem;
+  width: 30rem;
+}
+.text_content p{
+  width: 25rem;
+line-height: 25px;
+margin-top: 20px;
+font-weight: 400;
+}
+.btn1{
+  width: 180px;
+  height: 40px;
+  color: white;
+  background-color: hsl(231, 69%, 60%);
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+}
+.btn1:hover{
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+    border: 3px solid hsl(228, 45%, 44%);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.btn2{
+  width: 180px;
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.btn2:hover{
+ border: solid 2px hsl(229, 31%, 21%);
+ color: black;
+ cursor: pointer;
+ transition: 0.5s;
+}
+.blue_background{
+  width: 34rem;
+height: 18rem;
+border-radius: 96px 0px 0px 96px;
+background-color: hsl(231, 69%, 60%);
+position: absolute;
+top: 23rem;
+right: 0rem;
+z-index: -1;
+}
+ /*main number 2  end */
+
+/* section 1 start */
+.Features_text{
+  text-align: center;
+  margin-top: 10rem;
+}
+.Features_text p{
+  width: 31rem;
+margin: 17px 32rem;
+line-height: 26px;
+font-weight: 400;
+}
+.item2{
+  display: flex;
+  align-items: center;
+  margin: 2.4rem;
+  justify-content: center;
+}
+.tabs h3{
+  margin: 1.5rem;
+  font-weight: 400;
+}
+.line::after{
+  content: "";
+  width: 200px;
+  height: 3px;
+  background-color: hsl(0, 94%, 66%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.line{
+width: 35rem;
+height: 3px;
+background-color: black;
+position: absolute;
+top: 65rem;
+left: 30rem;
+}
+.flex3{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+.blue_background1{
+  width: 38rem;
+height: 18rem;
+border-radius: 0px 0px 98px 0px;
+background-color: hsl(231, 69%, 60%);
+position: absolute;
+left: 0rem;
+top: 79rem;
+z-index: -1;
+}
+.text1 p{
+  width: 23rem;
+  font-weight: 400;
+  margin-top: 20px;
+  line-height: 24px;
+}
+.btn3{
+  width: 120px;
+  height: 40px;
+  color: white;
+  background-color: hsl(231, 69%, 60%);
+  border-radius: 5px;
+  border: none;
+  margin-top: 15px;
+}
+.brt{
+display: none;
+}
+.brt1{
+  display: none;
+}
+.brt .active{
+  display: block;
+}
+.brt1 .active{
+  display: block;
+}
+
+.tab-content {
+        display: none;
+    }
+
+    .active {
+  display: flex;
+ gap: 190px;
+  align-items: center;
+}
+
+    .tab-button {
+        cursor: pointer;
+        transition: 0.6s;
+    }
+
+    .tab-button.active {
+        background-color: #ccc;
+    }
+.content_tab img{
+  animation: tel 2s alternate;
+}
+@keyframes tel{
+  to{
+    opacity: 1;
+    transition: 0.5s;
+
+  }
+  from{
+    opacity: 0;
+  }
+}
+/* section 1 end */
+
+
+/* section star number 3*/
+.text2{
+  text-align: center;
+  margin-top: 15rem;
+}
+.text2 p{
+  font-weight: 400;
+width: 29rem;
+line-height: 25px;
+margin: 13px 0rem 0px 33rem;
+}
+.card_flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+.browser{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+width: 20rem;
+height: 23rem;
+text-align: center;
+padding: 33px;
+border-radius: 0px 0px 10px 10px;
+}
+.dot img{
+  margin-left: -1rem;
+  margin-top: 34px;
+}
+.browser h2{
+  margin-top: 20px;
+}
+.browser p{
+  font-weight: 400;
+  margin-top: 10px;
+}
+.btn4{
+  width: 200px;
+  height: 40px;
+  background-color: hsl(231, 69%, 60%);
+  border-radius: 5px;
+  color: white;
+  border: none;
+  margin-top: 48px;
+}
+.btn4:hover{
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    color: hsl(231, 69%, 60%);
+    border:  3px solid hsl(228, 45%, 44%);
+}
+.browser:nth-child(2){
+  margin-top: 5rem;
+}
+.browser:nth-child(3){
+  margin-top: 10rem;
+}
+
+/* section end  number 3*/
+
+/* section  faq star number 4*/
+
+.text3{
+  text-align: center;
+  margin-top: 10rem;
+}
+.text3 p{
+  font-weight: 400;
+width: 29rem;
+line-height: 25px;
+margin: 13px 0rem 0px 33rem;
+}
+
+.item3 {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-top: 5rem;
+/* gap: 35px; */
+}
+
+.question p {
+width: 31rem;
+height: 0rem;
+margin-top: 20px;
+line-height: 25px;
+font-weight: 400;
+overflow: hidden;
+white-space: nowrap;
+display: block;
+transition: height 0.5s, white-space 0s 0.5s;
+}
+.question h2{
+    font-weight: 500;
+}
+.question h2:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: hsl(0, 94%, 66%);
+}
+.question p.actives{
+height: 10rem;
+white-space: normal;
+transition: height 0.5s;
+}
+
+.question::before {
+content: "";
+background-image: url(images/icon-arrow.svg);
+background-repeat: no-repeat;
+width: 32px;
+height: 20px;
+position: absolute;
+left: 64rem;
+cursor: pointer;
+}
+
+.question.actives::before {
+content: "";
+background-image: url(images/icon-arrow.svg);
+background-repeat: no-repeat;
+width: 32px;
+height: 20px;
+position: absolute;
+left: 64rem;
+transform: rotate(180deg);
+}
+.btn5{
+width: 110px;
+height: 40px;
+background-color: hsl(231, 69%, 60%);
+color: white;
+border: none;
+border-radius: 5px;
+margin-top: 4rem;
+margin-left: 11rem;
+}
+/* section  faq end number 4*/
+
+
+/* css section  number 5 star*/
+.item4{
+height: 20rem;
+background-color: hsl(231, 69%, 60%);
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+flex-direction: column;
+text-align: center;
+margin-top: 7rem;
+}
+.text4 h1{
+margin: 1.5rem;
+}
+.btn6 input{
+width: 300px;
+height: 40px;
+border-radius: 5px;
+border: none;
+padding: 10px;
+}
+.btn6 button{
+width: 110px;
+height: 40px;
+background-color: hsl(0, 94%, 66%);
+color: white;
+border-radius: 5px;
+border: none;
+margin: 1.4rem;
+}
+.btn6 button:hover{
+    background-color: white;
+    color: hsl(0, 94%, 66%);
+    border: 3px solid hsl(0, 94%, 66%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+/* section  faq end number 5*/
+
+/* footer css start*/
+.flex4{
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: hsl(229, 31%, 21%);
+height: 10rem;
+color: white;
+}
+.logo_text a{
+text-decoration: none;
+color: white;
+margin: 1.4rem;
+}
+.logo_text a:hover{
+    color: hsl(0, 94%, 66%);
+    transition: 0.5s;
+}
+.socila img {
+  margin: 1.4rem;
+  transition: 0.5s;
+}
+
+.socila img:hover {
+  filter: brightness(0) saturate(100%) invert(42%) sepia(98%) saturate(7427%) hue-rotate(343deg) brightness(101%) contrast(101%);
+  cursor: pointer;
+}
+
+
+/* media screen iphone pro 14 max  or s20 ultra succesffuly done */ 
+@media only screen and (max-device-width: 430px) {
+
+  html{
+    height: 600vh;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .flex1{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+  }
+    .flex2{
+        flex-direction: column-reverse;
+    }
+    .blue_background{
+      left: 8rem;
+      height: 15rem;
+      top: 14rem;
+      width: 19rem;
+    }
+    .text_content{
+        text-align: center;
+    }
+    .text_content h1{
+      font-size:2rem;
+      width: 23rem;
+      margin-top: 5rem;
+    }
+    .text_content p{
+      width: 19rem;
+      margin-left: 2rem;
+    }
+    .image_hero img{
+      width: 28rem;
+    }
+    /* menu and close js */
+    .item1 ul{
+      height: 120vh;
+      width: 27rem;
+      background-color: hsl(229deg 31% 21% / 94%);
+      color: white;
+      position: absolute;
+      top: 0;
+      left: -450px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: 0.5s;
+    }
+    .item1 ul.activese{
+      left: 0;
+    }
+    .item1 li{
+      font-size: 1rem;
+      margin-top: 10rem;
+      margin: 4.5rem;
+
+    }
+    .btn{
+      width: 400px;
+      height: 50px;
+      border:  3px solid white;
+      background-color: hsl(229deg 31% 21% / 94%);
+      margin-top: 20px;
+    }
+    .menu img{
+      position: absolute;
+      top: 2rem;
+      left: 24rem;
+      font-size: 40px;
+    }
+    .flex0 img{
+      display: block;
+    }
+    .close img{
+      position: absolute;
+      top: 31px;
+      left: 24rem;
+    }
+    /* end menu and close */
+    
+.Features_text p{
+  width: 20rem;
+  margin: 16px 3rem;
+
+}
+.line{
+  display: none;
+}
+.item2{
+  flex-direction: column;
+}
+.content_tab img{
+  width: 22rem;
+}
+.active{
+  flex-direction: column;
+}
+.flex3{
+  flex-direction: column;
+}
+.text1{
+  text-align: center;
+}
+.blue_background1{
+  left: 0px;
+  top: 94rem;
+  position: absolute;
+  width: 18rem;
+  height: 14rem;
+}
+.text2 p{
+  width: 20rem;
+  margin: 26px 0rem 0px 3rem;
+}
+.card_flex{
+  flex-direction: column;
+}
+.question h2{
+  font-weight: 100;
+  width: 23rem;
+  margin-left: 4rem;
+}
+.question::before{
+  left: 23rem;
+}
+.question.actives::before{
+  left: 23rem;
+}
+.question p{
+  width: 21rem;
+  margin-left: 4rem;
+}
+.question p.actives{
+  height:14rem ;
+}
+.btn6 button{
+  width: 300px;
+}
+.text3 p{
+  width: 21rem;
+  margin: 13px 0rem 0px 3rem;
+}
+.flex4{
+  display: flex;
+  flex-direction: column;
+  /* width: 27rem; */
+  justify-content: flex-start;
+  height: 25rem;
+}
+.logo_text{
+  flex-direction: column;
+  display: flex;
+  margin-top: 43px;
+}
+}
